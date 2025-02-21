@@ -16,10 +16,8 @@ Latest Stories — Detailed travel stories with images and descriptions.
 
 🖼️ Project Preview
 
-
-
-
-
+![preview](./Capture.PNG)
+![view demo](https://gdhiraj030.github.io/travel-responsive-website/)
 
 🛠️ Built With
 
@@ -33,7 +31,7 @@ Flexbox & CSS Grid — For responsive layouts
 
 Clone the repository:
 
-git clone <your-repo-link>
+git clone <https://github.com/gdhiraj030/travel-responsive-website.git>
 
 Navigate to the project folder:
 
@@ -41,16 +39,10 @@ cd travel-explorer
 
 Open index.html in your browser.
 
-💡 To-Do
 
-
-
-📄 License
-
-This project is licensed under the MIT License.
+This project is licensed under the MIT License [License](LICENSE).
 
 🤝 Connect
 
-GitHub: Your GitHub Link
+GitHub: <https://github.com/gdhiraj030>
 
-Portfolio: Your Portfolio Link
