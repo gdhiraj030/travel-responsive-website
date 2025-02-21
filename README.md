@@ -17,7 +17,10 @@ Latest Stories — Detailed travel stories with images and descriptions.
 🖼️ Project Preview
 
 ![preview](./Capture.PNG)
-![view demo](https://gdhiraj030.github.io/travel-responsive-website/)
+
+## Live Demo
+
+[View Online](https://gdhiraj030.github.io/travel-responsive-website/)
 
 🛠️ Built With
 
@@ -39,10 +42,8 @@ cd travel-explorer
 
 Open index.html in your browser.
 
-
 This project is licensed under the MIT License [License](LICENSE).
 
 🤝 Connect
 
 GitHub: <https://github.com/gdhiraj030>
-
