@@ -8,6 +8,11 @@ body,
 html {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 16px;
 }
 
 #main {
@@ -38,7 +43,7 @@ html {
   color: crimson;
 }
 #main header .hero__text p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   padding-bottom: 1rem;
 }
@@ -121,7 +126,7 @@ html {
   border-radius: 10px;
 }
 #main .top__city .cities .city p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.5rem 0;
 }
 #main .latest__stories {
@@ -135,66 +140,72 @@ html {
 #main .latest__stories .stories__container {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 0;
 }
-#main .latest__stories .stories__container h1 {
-  font-size: 3rem;
-  padding: 2rem 0;
-}
-#main .latest__stories .stories__container .stories {
+#main .latest__stories .stories__container .stories1 {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding-bottom: 1rem;
+  gap: 0.5rem;
 }
-#main .latest__stories .stories__container .stories .stories--image {
+#main .latest__stories .stories__container .stories1 .stories1--image {
   width: 100%;
-  height: 500px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
 }
-#main .latest__stories .stories__container .stories .stories--image img {
+#main .latest__stories .stories__container .stories1 .stories1--image img {
   width: 100%;
   height: 100%;
-}
-#main .latest__stories .stories__container .stories .stories--text {
-  height: 100%;
-  width: 100%;
-}
-#main .latest__stories .stories__container .stories .stories--text h2 {
-  font-size: 2rem;
-  padding-top: 1.5rem;
-}
-#main .latest__stories .stories__container .stories .stories--text p {
-  font-size: 1.2rem;
-  padding: 0.5rem 0;
-}
-#main .latest__stories .stories__container .stories2 {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-#main .latest__stories .stories__container .stories2 .stories2-box {
-  display: flex;
-  width: 100%;
-  gap: 2rem;
-}
-#main .latest__stories .stories__container .stories2 .stories2-box img {
-  width: 30%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
 }
-#main .latest__stories .stories__container .stories2 .stories2-box .stories2-box--text {
-  width: 70%;
+#main .latest__stories .stories__container .stories1 .stories1--text {
+  height: 100%;
+  width: 100%;
 }
-#main .latest__stories .stories__container .stories2 .stories2-box .stories2-box--text h3 {
-  font-size: 1.5rem;
+#main .latest__stories .stories__container .stories1 .stories1--text h2 {
+  font-size: 2rem;
 }
-#main .latest__stories .stories__container .stories2 .stories2-box .stories2-box--text p {
-  padding: 0.6rem 0;
-  padding-right: 4rem;
-  font-size: 1.2rem;
+#main .latest__stories .stories__container .stories1 .stories1--text p {
+  font-size: 1rem;
+}
+#main .latest__stories .stories__container .stories2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+#main .latest__stories .stories__container .stories2 .stories2__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+#main .latest__stories .stories__container .stories2 .stories2__box .stories2__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#main .latest__stories .stories__container .stories2 .stories2__box .stories2__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#main .latest__stories .stories__container .stories2 .stories2__box .stories2--text h3 {
+  font-size: 1rem;
+}
+#main .latest__stories .stories__container .stories2 .stories2__box .stories2--text p {
+  padding-top: 0.5rem;
+  font-size: 1rem;
 }
 #main .travel__form {
   width: 100%;
@@ -279,7 +290,10 @@ html {
   list-style: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
   #main nav .hamburger {
     display: none;
   }
@@ -309,7 +323,7 @@ html {
     padding-right: 2rem;
   }
   #main header .hero__text p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 1rem 1rem 1rem 0;
     width: 90%;
   }
@@ -365,23 +379,17 @@ html {
     font-weight: 500;
   }
   #main .latest__stories .stories__container {
-    width: 100%;
-    height: 100%;
     flex-direction: row;
-    gap: 2rem;
   }
-  #main .latest__stories .stories__container .stories {
+  #main .latest__stories .stories__container .stories1 .stories--image1 {
+    height: 100%;
+  }
+  #main .latest__stories .stories__container .stories1 .stories--image1 img {
     width: 100%;
     height: 100%;
   }
-  #main .latest__stories .stories__container .stories .stories--image {
-    height: 70%;
-  }
-  #main .latest__stories .stories__container .stories .stories--text {
-    height: 30%;
-  }
-  #main .latest__stories .stories__container .stories2 {
-    height: 100%;
+  #main .latest__stories .stories__container .stories2 .stories2__box {
+    flex-direction: row;
   }
   #main .travel__form {
     padding: 6rem 0;
