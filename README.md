@@ -16,7 +16,12 @@ Latest Stories — Detailed travel stories with images and descriptions.
 
 🖼️ Project Preview
 
-![preview](./Capture.PNG)
+![preview](./screenshots/desktop1.PNG)
+![preview](./screenshots/desktop2.PNG)
+![preview](./screenshots/desktop3.PNG)
+![preview](./screenshots/desktop4.PNG)
+![preview](./screenshots/mobile1.PNG)
+![preview](./screenshots/mobile2.PNG)
 
 ## Live Demo
 
